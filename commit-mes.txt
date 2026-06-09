@@ -1,0 +1,35 @@
+    docs: RST ファイルの誤記・表記ゆれを一括修正
+
+    ## 修正内容
+
+    ### 誤記・typo 修正
+    - `tCouter` → `tCounter`（atk2+tecs/counter.rst）
+    - `cSemaphorek_refer` → `cSemaphore_refer`（asp3/semaphore.rst）
+    - `suspendOsinterrupts` → `suspendOSInterrupts`（atk2+tecs/kernel.rst）
+    - 「ここコンポーネント」→「コンポーネント」（alarm.rst, counter.rst）
+    - 「再割込みサブ」→「再初期化」、「割込みサブ」→「初期化」（asp3/isr.rst）
+    - 「再終了処理」→「再初期化」、「終了処理」→「初期化」（asp3/terminateroutine.rst）
+    - 欠損テキスト補完：戻り値・パラメータ説明の空白、`ref_dtq` のバッククォート（asp3/dataqueue.rst）
+
+    ### 全角スペース → 半角スペース
+    - tecs:attr / tecs:sigfunction 宣言内の全角スペース（asp3, atk2+tecs 以下 複数ファイル）
+    - factory ブロック内の全角スペース（asp3/eventflag.rst）
+    - セクションタイトル（atk2+tecs/isr.rst）
+    - tecs:signature 宣言（atk2+tecs/kernel.rst）
+
+    ### 表記ゆれ統一
+    - 「である為」→「であるため」（asp3 以下 全ファイル）
+    - 「この為」→「このため」（asp3/timeeventnotifier.rst）
+    - 「参照して下さい」→「参照してください」（timeeventnotifier.rst, tecs/CDLref.rst）
+    - 「使用して下さい」→「使用してください」（timeeventnotifier.rst）
+    - 「定義しないで下さい」→「定義しないでください」（timeeventnotifier.rst）
+    - 「着目して下さい」→「着目してください」（timeeventnotifier.rst）
+
+    ### 句読点修正
+    - 「戻す．。」→「戻す。」（atk2+tecs/kernel.rst）
+    - 重複句読点「ポインタ。。」→「ポインタ。」（asp3/dataqueue.rst）
+
+    ### インデント修正
+    - startOs 関数説明の先頭全角スペース → 半角スペース4個（atk2+tecs/kernel.rst）
+
+    Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>

@@ -6,7 +6,7 @@ Thumbs.db
 *.DS_Store
 
 # Derived files
-_build
+# _build
 
 # Editors
 *~
